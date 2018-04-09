@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost/test
+    username: root
+    password: root
+server:
+  port: 1234
+  servlet:
+    context-path: /weixin
+wechat:
+  token: x
+  appid: x
+  appsecret: x
+baidu:
+  fy-appid: x
+  fy-secret: x
